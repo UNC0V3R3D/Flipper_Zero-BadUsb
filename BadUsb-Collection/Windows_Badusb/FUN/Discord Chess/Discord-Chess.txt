@@ -1,0 +1,26 @@
+WINDOWS r
+STRING powershell
+DELAY 200
+ENTER
+DELAY 900
+STRING Set-Clipboard -Value "s/g/$&"
+ENTER
+STRING echo "you have 10 seconds to go into discord"
+ENTER
+DELAY 10000
+
+STRING https://tenor.com/view/power-legendary-reverse-card-econowise-reverse-card-legendary-uno-reverse-card-uno-legendary-reverse-card-gif-23531292
+DELAY 3000
+ENTER
+STRING s/e/x
+DELAY 1000
+ENTER
+STRING s/w/ag
+DELAY 1000
+ENTER
+STRING s/g/$&e2e4
+DELAY 1000
+ENTER
+STRING s/g/$&
+
+
