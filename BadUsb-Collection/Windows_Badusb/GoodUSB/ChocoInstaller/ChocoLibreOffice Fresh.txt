@@ -1,0 +1,23 @@
+REM LibreOffice Fresh
+REM Author: ooovenenoso
+DELAY 2000
+GUI x
+DELAY 2000
+STRING a
+DELAY 2000
+LEFTARROW
+DELAY 2000
+ENTER
+DELAY 4000
+STRING Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+DELAY 2000
+ENTER
+DELAY 15000
+STRING choco install libreoffice
+DELAY 2000
+ENTER
+DELAY 10000
+STRING A
+DELAY 2000
+ENTER
+REM The above code is a Ducky Script that automates the process of installing LibreOffice Fresh using Chocolatey package manager on a Windows computer. The script starts by setting the execution policy to bypass and downloads the installation script from the Chocolatey website. After waiting for the installation to complete, the script proceeds to install LibreOffice Fresh using the "choco install libreoffice" command. Finally, the script sends the "A" key followed by the "Enter" key to accept any prompts and complete the installation. The author of this script is ooovenenoso.
