@@ -1,0 +1,23 @@
+REM 7zip-zstd
+REM Author: ooovenenoso
+DELAY 2000
+GUI x
+DELAY 2000
+STRING a
+DELAY 2000
+LEFTARROW
+DELAY 2000
+ENTER
+DELAY 4000
+STRING Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+DELAY 2000
+ENTER
+DELAY 15000
+STRING choco install 7zip-zstd
+DELAY 2000
+ENTER
+DELAY 10000
+STRING A
+DELAY 2000
+ENTER
+REM This is a Ducky Script that installs 7zip-zstd using Chocolatey package manager. The script starts by opening the Start menu on Windows 10 or 11, then inputs a command to install Chocolatey. After waiting for the installation to complete, the script inputs the command to install 7zip-zstd. The script is named based on the software and is authored by ooovenenoso.
