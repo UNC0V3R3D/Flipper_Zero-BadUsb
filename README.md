@@ -142,7 +142,7 @@ First of all, you have to identify the problem. Then you can look at the list be
 
 [PowerShell-Guide]: https://www.youtube.com/watch?v=IABNJEl2ZWk
 [Documentation]: https://web.archive.org/web/20220816200129/http://github.com/hak5darren/USB-Rubber-Ducky/wiki/Duckyscript
-[script]: https://github.com/UNC0V3R3D/Flipper_Zero-BadUsb/blob/main/BadUsb-Collection/ASCII/Selfwriting/SimpleTroll.txt
+[script]: https://github.com/UNC0V3R3D/Flipper_Zero-BadUsb/blob/main/BadUsb-Collection/Windows_Badusb/ASCII/Selfwriting/SimpleTroll.txt
 [qFlipper]: https://flipperzero.one/update
 [Patreon]: https://patreon.com/user?u=33918929&utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link
 
